@@ -1,0 +1,12 @@
+.calculator-parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 480px) {
+    .calculator-parent-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
