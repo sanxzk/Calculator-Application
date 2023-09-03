@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 // const API_URL = 'http://localhost:5000/api/auth'
-const API_URL = 'https://calculator-backend-rho.vercel.app/api/auth'
+const API_URL = 'https://calculator-application-vert.vercel.app/api/auth'
 
 //register user
 const signup = async (userData) => {

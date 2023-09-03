@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 // const API_URL = 'http://localhost:5000/api/calculation'
-const API_URL = 'https://calculator-backend-rho.vercel.app/api/calculation'
+const API_URL = 'https://calculator-application-vert.vercel.app/api/calculation'
 
 //addHistory
 const addCalculation = async ({calculation,authToken}) => {
